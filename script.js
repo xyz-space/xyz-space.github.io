@@ -23,11 +23,11 @@ var links = {
     type: "Website"
   },
   ALine: {
-    year: "2019",
-    name: "ALWFAV3",
+    year: "<a href='ALWFAV3.html'>2019</a>",
+    name: "<a href='ALWFAV3.html'>ALWFAV3</a>",
     collaborator:
-      "Paloma Moniz, Ricardo Gonçalves, Jaime Del Corro, Margarida Morais, Francisca Roseiro",
-    type: "Publication, Symposium"
+      "<a href='ALWFAV3.html'>Paloma Moniz, Ricardo Gonçalves, Jaime Del Corro, Margarida Morais, Francisca Roseiro</a>",
+    type: "<a href='ALWFAV3.html'>Publication, Symposium</a>"
   },
   Copy: {
     year: "2019",
