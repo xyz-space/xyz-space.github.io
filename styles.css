@@ -59,17 +59,18 @@ a {
   font-size: 1rem;
 }
 
-#about a {
-  border-radius: 20px;
-  border: 0.5px solid white;
-  transition: background-color 0.25s;
-}
+
 
 #about a:hover {
+  border-radius: 20px;
+  padding: 2px;
+  border: 0.5px solid white;
+  transition: background-color 0.25s;
   font-style: italic;
   background-color: white;
   color: black;
 }
+
 
 .line {
   display: flex;
