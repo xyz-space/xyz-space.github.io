@@ -24,10 +24,10 @@ function makeLinks() {
     let type = value.type;
 
     let newline = $(
-      `<a class='line' href='${linkBody + key}' target='_top'></a>`
+      `<a class='staticline' href='${linkBody + key}' target='_top'></a>`
     );
     newline.append($(`<span class="year">${year}</span>`));
-    newline.append($(`<span class="title"><a ">${title}</a></span>`));
+    newline.append($(`<span class="title">${title}</span>`));
     newline.append($(`<span class="with">with</span>`));
     let collaboratorSpan = $(`<span class="collaborator">${collaborator}</span>`);
     if (bio) {
@@ -77,7 +77,7 @@ $('.voxNews').parent().append($('.voxNews').clone());
       function phase1() {
           var voxNews = $('.voxNews').first(),
               curMargin = voxNews.css('margin-left').replace("px", ""),
-              animSpeed = (w*20) - (Math.abs(curMargin)*20);
+              animSpeed = (w*10) - (Math.abs(curMargin)*10);
 
           voxNews.animate({'margin-left' : '-' + w + 'px'}, animSpeed, 'linear', phase2);
       }
