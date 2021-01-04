@@ -30,10 +30,10 @@ var links = {
     type: "<a href='ALWFAV3.html'>Publication, Symposium</a>"
   },
   Copy: {
-    year: "2019",
-    name: "The Copy Machine",
-    collaborator: "—",
-    type: "AI, Publication, Website"
+    year: "<a href='TheCopyMachine.html'>2019</a>",
+    name: "<a href='TheCopyMachine.html'>The Copy Machine</a>",
+    collaborator: "<a href='TheCopyMachine.html'>—</a>",
+    type: "<a href='TheCopyMachine.html'>AI, Publication, Website</a>"
   },
   Nature: {
     year: "2019",
