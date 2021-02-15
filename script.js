@@ -42,10 +42,10 @@ var links = {
     type: "AI, Publication, AR"
   },
   Nostalgia: {
-    year: "2019",
-    name: "Synthetic Nostalgia",
-    collaborator: "CMP Office",
-    type: "AI, Publication, Installation"
+    year: "<a href='Synthetic.html'>2019</a>",
+    name: "<a href='Synthetic.html'>Synthetic Nostalgia</a>",
+    collaborator: "<a href='Synthetic.html'>CMP Office</a>",
+    type: "<a href='Synthetic.html'>AI, Publication, Installation</a>"
   },
   Hustler: {
     year: "2019",
