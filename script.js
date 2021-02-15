@@ -2,25 +2,25 @@ var linkBody = "";
 
 var links = {
   Lockdown: {
-    year: "2020",
-    name: "Lockdown Commute",
-    collaborator: "—",
+    year: "<a href='Lockdown.html'>2020</a>",
+    name: "<a href='Lockdown.html'>Lockdown Commute</a>",
+    collaborator: "<a href='Lockdown.html'>—</a>",
     bio: "<a href='https://lockdowncommute.space'>Website</a>",
-    type: "Performance"
+    type: "<a href='Lockdown.html'>Performance</a>"
   },
   Red: {
-    year: "2020",
-    name: "Seeing Red",
-    collaborator: "Paloma Moniz, Ricardo Gonçalves",
-    bio: "Work in Progress",
-    type: "Website"
+    year: "<a href='SeeingRed.html'>2020</a>",
+    name: "<a href='SeeingRed.html'>Seeing Red</a>",
+    collaborator: "<a href='SeeingRed.html'>Paloma Moniz, Ricardo Gonçalves</a>",
+    bio: "<a href='SeeingRed.html'>Work in Progress</a>",
+    type: "<a href='SeeingRed.html'>Website</a>"
   },
   Nik: {
-    year: "2020",
-    name: "Niklas Stoehr",
-    collaborator: "—",
+    year: "<a href='NiklasStoehr.html'>2020</a>",
+    name: "<a href='NiklasStoehr.html'>Niklas Stoehr</a>",
+    collaborator: "<a href='NiklasStoehr.html'>—</a>",
     bio: "<a href='https://niklas-stoehr.com'>Website</a>",
-    type: "Website"
+    type: "<a href='NiklasStoehr.html'>Website</a>"
   },
   ALine: {
     year: "<a href='ALWFAV3.html'>2019</a>",
@@ -36,10 +36,10 @@ var links = {
     type: "<a href='TheCopyMachine.html'>AI, Publication, Website</a>"
   },
   Nature: {
-    year: "2019",
-    name: "Mother Nature",
-    collaborator: "—",
-    type: "AI, Publication, AR"
+    year: "<a href='Nature.html'>2019</a>",
+    name: "<a href='Nature.html'>Mother Nature</a>",
+    collaborator: "<a href='Nature.html'>—</a>",
+    type: "<a href='Nature.html'>AI, Publication, AR</a>"
   },
   Nostalgia: {
     year: "<a href='Synthetic.html'>2019</a>",
@@ -48,35 +48,35 @@ var links = {
     type: "<a href='Synthetic.html'>AI, Publication, Installation</a>"
   },
   Hustler: {
-    year: "2019",
-    name: "Premium Hustler",
-    collaborator: "Paloma Moniz, Ricardo Gonçalves",
-    type: "Installation, Website, Objects"
+    year: "<a href='PremiumHustler.html'>2019</a>",
+    name: "<a href='PremiumHustler.html'>Premium Hustler</a>",
+    collaborator: "<a href='PremiumHustler.html'>Paloma Moniz, Ricardo Gonçalves</a>",
+    type: "<a href='PremiumHustler.html'>Installation, Website, Objects</a>"
   },
   Gradwanderung: {
-    year: "2018",
-    name: "Gradwanderung Shanghai",
-    collaborator: "Lunia D'Ambrosio",
-    type: "App, Publication"
+    year: "<a href='Gradwanderung.html'>2018</a>",
+    name: "<a href='Gradwanderung.html'>Gradwanderung Shanghai</a>",
+    collaborator: "<a href='Gradwanderung.html'>Lunia D'Ambrosio</a>",
+    type: "<a href='Gradwanderung.html'>App, Publication</a>"
   },
   Weizenbaum: {
-    year: "2018",
-    name: "Weizenbaum Institut",
-    collaborator: "Lunia D'Ambrosio, Catharina Sonnenberg",
-    type: "Corporate Identity"
+    year: "<a href='Weizenbaum.html'>2018</a>",
+    name: "<a href='Weizenbaum.html'>Weizenbaum Institut</a>",
+    collaborator: "<a href='Weizenbaum.html'>Lunia D'Ambrosio, Catharina Sonnenberg</a>",
+    type: "<a href='Weizenbaum.html'>Corporate Identity</a>"
   },
   Rundgang: {
-    year: "2018",
-    name: "Rundgang 2018",
-    collaborator: "—",
-    type: "Poster"
+    year: "<a href='Rundgang.html'>2018</a>",
+    name: "<a href='Rundgang.html'>Rundgang 2018</a>",
+    collaborator: "<a href='Rundgang.html'>—</a>",
+    type: "<a href='Rundgang.html'>Poster</a>"
   },
 
   Transparency: {
-    year: "2016",
-    name: "Transparency",
-    collaborator: "Jule Wittorf",
-    type: "Photography"
+    year: "<a href='Transparency.html'>2016</a>",
+    name: "<a href='Transparency.html'>Transparency</a>",
+    collaborator: "<a href='Transparency.html'>Jule Wittorf</a>",
+    type: "<a href='Transparency.html'>Photography</a>"
   },
 };
 
