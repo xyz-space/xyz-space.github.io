@@ -8,6 +8,12 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
     crossorigin="anonymous"></script>
+    <script src="endlessRiver.js"></script>
+    <script>
+      $(document).ready(function (event) {
+          $("#news_slide ul").endlessRiver();
+      });
+    </script>
 
     <link rel="stylesheet" href="styles.css">
     <title>Roxy Zeiher</title>
@@ -16,22 +22,29 @@
 
 
     <div id="container">
-        <div id="th2" class="staticline">
+      <div id="th2" class="staticline">
         <span id="year-h" class="year">Year</span>
         <span id="title-h" class="title">Title</span>
         <span id="with-h" class="with"></span>
         <span id="collaborator-h" class="collaborator">Collaborators</span>
         <span id="type-h" class="type">Type</span>
       </div>
+      <div class="staticline">
+        <span class="year">2018</span>
+        <span class="title">Weizenbaum Institut</span>
+        <span class="with">with</span>
+        <span class="collaborator">Lunia D'Ambrosio, Catharina Sonnenberg</span>
+        <span class="type">Corporate Identity</span>
+      </div>
     </div>
 
 
     <div id="news_slide" class="products-outer">
     <ul class="voxNews products-inner">
-    <li><img src="Weizenbaum-1.jpg" alt=""></li>
-    <li><img src="Weizenbaum-2.jpg" alt=""></li>
-    <li><img src="Weizenbaum-3.jpg" alt=""></li>
-    <li><img src="Weizenbaum-4.jpg" alt=""></li>
+    <li><img src="img/Weizenbaum-1.jpg" alt=""></li>
+    <li><img src="img/Weizenbaum-2.jpg" alt=""></li>
+    <li><img src="img/Weizenbaum-3.jpg" alt=""></li>
+    <li><img src="img/Weizenbaum-4.jpg" alt=""></li>
     </ul>
     </div>
 
@@ -52,9 +65,4 @@
   </a>
 
   </body>
-
-  <script src="script-Weizenbaum.js"></script>
-
-
-
 </html>
