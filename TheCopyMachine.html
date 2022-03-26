@@ -9,6 +9,12 @@
     src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
     crossorigin="anonymous"></script>
+    <script src="endlessRiver.js"></script>
+    <script>
+      $(document).ready(function (event) {
+          $("#news_slide ul").endlessRiver();
+      });
+    </script>
 
     <link rel="stylesheet" href="styles.css">
     <title>Roxy Zeiher</title>
@@ -17,29 +23,36 @@
 
 
     <div id="container">
-        <div id="th" class="line">
+      <div id="th" class="line">
         <span id="year-h" class="year">Year</span>
         <span id="title-h" class="title">Title</span>
         <span id="with-h" class="with"></span>
         <span id="collaborator-h" class="collaborator">Collaborators</span>
         <span id="type-h" class="type">Type</span>
       </div>
+      <div class="staticline">
+        <span class="year">2019</span>
+        <span class="title">The Copy Machine</span>
+        <span class="with">with</span>
+        <span class="collaborator">–</span>
+        <span class="type">AI, Publication, Website</span>
+      </div>
     </div>
 
 
     <div id="news_slide" class="products-outer">
     <ul class="voxNews products-inner">
-    <li><img src="Copy-01.jpg" alt=""></li>
-    <li><img src="Copy-02.jpg" alt=""></li>
-    <li><img src="Copy-03.jpg" alt=""></li>
-    <li><img src="Copy-01.jpg" alt=""></li>
-    <li><img src="Copy-02.jpg" alt=""></li>
-    <li><img src="Copy-03.jpg" alt=""></li>
-    <li><img src="Copy-01.jpg" alt=""></li>
-    <li><img src="Copy-02.jpg" alt=""></li>
-    <li><img src="Copy-03.jpg" alt=""></li>
-    <li><img src="Copy-01.jpg" alt=""></li>
-    <li><img src="Copy-02.jpg" alt=""></li>
+    <li><img src="img/Copy-01.jpg" alt=""></li>
+    <li><img src="img/Copy-02.jpg" alt=""></li>
+    <li><img src="img/Copy-03.jpg" alt=""></li>
+    <li><img src="img/Copy-01.jpg" alt=""></li>
+    <li><img src="img/Copy-02.jpg" alt=""></li>
+    <li><img src="img/Copy-03.jpg" alt=""></li>
+    <li><img src="img/Copy-01.jpg" alt=""></li>
+    <li><img src="img/Copy-02.jpg" alt=""></li>
+    <li><img src="img/Copy-03.jpg" alt=""></li>
+    <li><img src="img/Copy-01.jpg" alt=""></li>
+    <li><img src="img/Copy-02.jpg" alt=""></li>
 
     </ul>
     </div>
@@ -72,9 +85,4 @@ instance in the creative process.</p>
   </a>
 
   </body>
-
-  <script src="script-TheCopyMachine.js"></script>
-
-
-
 </html>

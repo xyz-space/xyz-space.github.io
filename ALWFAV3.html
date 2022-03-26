@@ -8,6 +8,12 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
     crossorigin="anonymous"></script>
+    <script src="endlessRiver.js"></script>
+    <script>
+      $(document).ready(function (event) {
+          $("#news_slide ul").endlessRiver();
+      });
+    </script>
 
     <link rel="stylesheet" href="styles.css">
     <title>Roxy Zeiher</title>
@@ -16,27 +22,34 @@
 
 
     <div id="container">
-        <div id="th2" class="staticline">
+      <div id="th2" class="staticline">
         <span id="year-h" class="year">Year</span>
         <span id="title-h" class="title">Title</span>
         <span id="with-h" class="with"></span>
         <span id="collaborator-h" class="collaborator">Collaborators</span>
         <span id="type-h" class="type">Type</span>
       </div>
+      <div class="line">
+        <span class="year">2019</span>
+        <span class="title">ALWFAV3</span>
+        <span class="with">Paloma Moniz, Ricardo Gonçalves, Jaime Del Corro, Margarida Morais, Francisca Roseiro</span>
+        <span class="collaborator">-</span>
+        <span class="type">Publication, Symposium</span>
+      </div>
     </div>
 
 
     <div id="news_slide" class="products-outer">
     <ul class="voxNews products-inner">
-    <li><img src="ALWFAV3-1.jpg" alt=""></li>
-    <li><img src="ALWFAV3-2.jpg" alt=""></li>
-    <li><img src="ALWFAV3-3.jpg" alt=""></li>
-    <li><img src="ALWFAV3-4.jpg" alt=""></li>
-    <li><img src="ALWFAV3-5.jpg" alt=""></li>
-    <li><img src="ALWFAV3-6.jpg" alt=""></li>
-    <li><img src="ALWFAV3-7.jpg" alt=""></li>
-    <li><img src="ALWFAV3-8.jpg" alt=""></li>
-    <li><img src="ALWFAV3-9.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-1.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-2.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-3.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-4.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-5.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-6.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-7.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-8.jpg" alt=""></li>
+    <li><img src="img/ALWFAV3-9.jpg" alt=""></li>
     </ul>
     </div>
 
@@ -67,9 +80,4 @@ and Rebecca Stephany, Legrand Jäger, and Paul Soulellis.</p>
   </a>
 
   </body>
-
-  <script src="script-ALWFAV3.js"></script>
-
-
-
 </html>

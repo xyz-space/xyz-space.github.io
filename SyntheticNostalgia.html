@@ -8,6 +8,12 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
     crossorigin="anonymous"></script>
+    <script src="endlessRiver.js"></script>
+    <script>
+      $(document).ready(function (event) {
+          $("#news_slide ul").endlessRiver();
+      });
+    </script>
 
     <link rel="stylesheet" href="styles.css">
     <title>Roxy Zeiher</title>
@@ -16,27 +22,34 @@
 
 
     <div id="container">
-        <div id="th2" class="staticline">
+      <div id="th2" class="staticline">
         <span id="year-h" class="year">Year</span>
         <span id="title-h" class="title">Title</span>
         <span id="with-h" class="with"></span>
         <span id="collaborator-h" class="collaborator">Collaborators</span>
         <span id="type-h" class="type">Type</span>
       </div>
+      <div class="staticline">
+        <span class="year">2019</span>
+        <span class="title">Synthetic Nostalgia</span>
+        <span class="with">with</span>
+        <span class="collaborator">CMP Office</span>
+        <span class="type">AI, Publication, Installation</span>
+      </div>
     </div>
 
 
     <div id="news_slide" class="products-outer">
     <ul class="voxNews products-inner">
-    <li><img src="Synthetic-1.jpg" alt=""></li>
-    <li><img src="Synthetic-2.jpg" alt=""></li>
-    <li><img src="Synthetic-3.jpg" alt=""></li>
-    <li><img src="Synthetic-4.jpg" alt=""></li>
-    <li><img src="Synthetic-5.jpg" alt=""></li>
-    <li><img src="Synthetic-6.jpg" alt=""></li>
-    <li><img src="Synthetic-7.jpg" alt=""></li>
-    <li><img src="Synthetic-8.jpg" alt=""></li>
-    <li><img src="Synthetic-9.jpg" alt=""></li>
+    <li><img src="img/Synthetic-1.jpg" alt=""></li>
+    <li><img src="img/Synthetic-2.jpg" alt=""></li>
+    <li><img src="img/Synthetic-3.jpg" alt=""></li>
+    <li><img src="img/Synthetic-4.jpg" alt=""></li>
+    <li><img src="img/Synthetic-5.jpg" alt=""></li>
+    <li><img src="img/Synthetic-6.jpg" alt=""></li>
+    <li><img src="img/Synthetic-7.jpg" alt=""></li>
+    <li><img src="img/Synthetic-8.jpg" alt=""></li>
+    <li><img src="img/Synthetic-9.jpg" alt=""></li>
     </ul>
     </div>
 
@@ -65,9 +78,4 @@ Smile Face Museum in New York.</p>
   </a>
 
   </body>
-
-  <script src="script-Synthetic.js"></script>
-
-
-
 </html>
